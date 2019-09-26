@@ -1,0 +1,96 @@
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 1280px){
+
+    .menu ul li{
+        width: 80px;
+    }
+    #slider{
+        padding-top: 15%;
+        width: auto;
+    }
+    .formulaire{
+        margin-left:50% ;
+        margin-top: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    h3{
+font-size: small;
+    }
+
+    .adressewebagency{
+        font-size: small;
+
+    }
+    .adressewebagency2{
+        font-size: small;
+    }
+    .map-responsive iframe{
+        width: 80%;
+        padding-left: 10%;
+        height: 400px;
+    }
+
+
+
+}
+
+@media all and (max-device-width: 480px)
+{
+    /* Vos règles CSS pour les mobiles ici */
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        display: flex;
+        width: 100%;
+        padding-left: 0%;
+    }
+    .menu ul li{
+        width: 75px;
+    }
+    #slider{
+        padding-top: 40%;
+        width: auto;
+    }
+    .presentationnosservices2{
+        padding-left: 2%;
+    }
+    .menuportfolio{
+        width: 100%;
+    }
+    .menuportfolio ul li{
+        width: 90px;
+        height: 30px;
+    }
+    .formulaire{
+        display: flex;
+        flex-direction: column;
+        margin: 30% 1% 1% 1%;
+
+    }
+    .map-responsive {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .map-responsive iframe {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+
+    }
+    .contact-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-box-form{
+        position: relative;
+        left: unset;
+        -webkit-transform: unset;
+        transform: unset;
+        top: unset;
+        margin-bottom: 4%;
+    }
+}

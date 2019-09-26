@@ -1,0 +1,225 @@
+body{
+    margin:0;
+}
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding-top: 2%;
+    justify-content: space-around;
+    z-index: 99;
+    background-color: honeydew;
+}
+.logo{
+    display: flex;
+    padding-left: 10%;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu ul li{
+    display: block;
+    float: left;
+    width: 150px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: honeydew;
+}
+.menu ul li:hover{
+    background-color: lightskyblue;
+}
+a{
+    text-decoration: none;
+}
+#slider{
+    padding-top: 10%;
+    width: 100%;
+    overflow: hidden;
+}
+figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+    animation: 20s slidy infinite;
+}
+figure img {
+    width: 20%;
+    height: auto;
+    float: left;
+}
+@keyframes slidy {
+    0% { left: 0%; }
+    25% { left: 0%; }
+    50% { left: -100%; }
+    75% { left: -100%; }
+    100% { left: 0%; }
+}
+.corpsdepage{
+    padding-top: 5%;
+}
+#services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titrenosservices {
+    display: flex;
+    width: 80%;
+    padding-top: 5%;
+    justify-content: center;
+}
+.presentation{
+    display: flex;
+    width: 60%;
+    padding-top: 2%;
+    justify-content: center;
+}
+.image1{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding-top: 5%;
+}
+.services{
+    display: flex;
+
+}
+.presentationnosservices2{
+    padding-top: 7%;
+}
+.presentationnosservices3{
+    display: flex;
+    flex-direction: column;
+}
+i{
+    width: 50px;
+}
+.titrepresentation2{
+    font-size: large;
+    font-weight: bold;
+}
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titreportfolio {
+    display: flex;
+    width: 80%;
+    padding-top: 5%;
+    justify-content: center;
+}
+.presentationportfolio{
+    display: flex;
+    width: 80%;
+    padding-top: 2%;
+    justify-content: center;
+}
+.menuportfolio ul{
+    list-style-type: none;
+    padding-top: 5%;
+}
+.menuportfolio ul li {
+    display: block;
+    float: left;
+    width: 150px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 2px solid aliceblue ;
+    background-color: aliceblue;
+}
+.menuportfolio ul li:hover{
+    background-color: lightskyblue;
+}
+.images2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-top: 3%;
+    justify-content: space-around;
+}
+.image3{
+    display: flex;
+    width: 30%;
+    height: 30%;
+}
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titrecontact{
+    display: flex;
+    width: 80%;
+    padding-top: 5%;
+    justify-content: center;
+}
+.adressewebagency{
+    font-size: medium;
+    font-weight: bold;
+}
+.formulaire{
+    z-index: 99;
+    position: absolute;
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+    margin-left:50% ;
+    margin-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+.boutonenvoyer{
+    background-color: lightskyblue;
+}
+.boutonenvoyer:hover{
+    background-color: aliceblue;
+}
+/*.map-responsive {
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    padding-left: 10%;
+}
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:70%;
+    width:80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position:absolute;
+}*/
+.contact-box{
+    padding: 0 10%;
+    position: relative;
+}
+
+.contact-box-form{
+    position: absolute;
+    left: 79%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+    position: absolute;
+    top: 44%;
+}
+
+iframe{
+    width:100%;
+}
+
+
+
+
+
+
